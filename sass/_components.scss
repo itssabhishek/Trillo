@@ -179,6 +179,14 @@
         margin-right: 2rem;
         fill: currentColor;
     }
+
+    &__icon-star,
+    &__icon-location {
+        height: 1.75rem;
+        width: 1.75rem;
+        fill: var(--color-primary);
+    }
+
 }
 
 .legel {
@@ -186,4 +194,31 @@
     color: var(--color-grey-light-4);
     text-align: center;
     padding: 2.5rem;
+}
+
+.gallery {
+    display: flex;
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
+
+.overview {
+    display: flex;
+
+    &__heading {}
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__location {}
+
+    &__rating {}
+
+    &__rating-average {}
+
+    &__rating-count {}
 }

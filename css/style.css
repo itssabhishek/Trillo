@@ -62,7 +62,6 @@ body {
 
 .hotel-view {
   background-color: #fff;
-  background-color: orangered;
   height: 80rem;
   flex: 1; }
 
@@ -180,9 +179,24 @@ body {
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
+  .side-nav__icon-star, .side-nav__icon-location {
+    height: 1.75rem;
+    width: 1.75rem;
+    fill: var(--color-primary); }
 
 .legel {
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }
+
+.overview {
+  display: flex; }
+  .overview__stars {
+    margin-right: auto; }
